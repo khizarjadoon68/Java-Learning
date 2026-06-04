@@ -1,4 +1,7 @@
-//Wrap the primitive data type into object
+//Wrap the primitive data type into object .
+/*Wrapper classes are used to convert primitive data types into objects and provide predefined methods for
+ performing operations on them.*/
+
 public class WrapperClasses {
     public static void main(String[] args){
 
