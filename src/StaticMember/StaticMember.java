@@ -1,3 +1,4 @@
+package StaticMember;
 
 // A variable that shared between all objects of a class ( instead of each object have its copy ).
 public class StaticMember{
@@ -18,8 +19,8 @@ public class StaticMember{
 
     public static void main(String[] args){
 
-        Example ex1 = new Example();
-        Example ex2 = new Example();
+//        ClassObject.Example ex1 = new ClassObject.Example();
+//        ClassObject.Example ex2 = new ClassObject.Example();
 
         // Static variable and function are call with Class name not with objects
         /*Same type of function can call each other . In this example we can call y and fun2 without using the class
