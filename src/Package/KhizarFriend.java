@@ -1,4 +1,4 @@
-package khizar1 ;
+package Package;
 
 public class KhizarFriend {
     public static void main(){
