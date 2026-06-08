@@ -19,8 +19,8 @@ public class StaticMember{
 
     public static void main(String[] args){
 
-//        ClassObject.Example ex1 = new ClassObject.Example();
-//        ClassObject.Example ex2 = new ClassObject.Example();
+//        ClassObject.thisKeyword.Example ex1 = new ClassObject.thisKeyword.Example();
+//        ClassObject.thisKeyword.Example ex2 = new ClassObject.thisKeyword.Example();
 
         // Static variable and function are call with Class name not with objects
         /*Same type of function can call each other . In this example we can call y and fun2 without using the class
