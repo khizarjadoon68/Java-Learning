@@ -3,8 +3,11 @@ package ConstructorInheritance;
  then the child class constructor. */
 
 class A{
+    //Instance variable
     int a ;
-   //Constructor .
+
+    //Constructor .
+    //Passing parameter to Constructor of parent class
     public A (int x){
         a=x ;
         System.out.println("ConstructorInheritance.A");
@@ -15,7 +18,8 @@ class A{
 class B extends A {
     //Constructor .
     public B(){
-        // manually call super class
+        /* When we pass an parameter to constructor of parent class then we call manually to parent class with
+        super Keyword .*/
         super(6);
         System.out.println("ConstructorInheritance.B");
     }
