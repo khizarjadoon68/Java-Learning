@@ -16,7 +16,7 @@ class B extends A {
     //constructor of B .
     //when we create multiple constructors in one class always parameters are different .
     public B(int x){
-
+        //First line of Constructor is super() Or this() (by default super ()) .
         System.out.println("B 2");
 
     }
