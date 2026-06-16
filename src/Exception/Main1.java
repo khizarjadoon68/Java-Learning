@@ -2,7 +2,7 @@ package Exception;
 
 //Our throw and default catch
 /*
-public class Main1 {
+public class Threads.Main1 {
     public static void main(String[] args) {
 
         int age = 15;
