@@ -17,7 +17,7 @@ public class Main1 {
 */
 
 //Our throw and Our catch
-/*public class Main1 {
+public class Main1 {
     public static void main(String[] args) {
 
         try {
@@ -32,4 +32,4 @@ public class Main1 {
         }
     }
 }
-*/
+
