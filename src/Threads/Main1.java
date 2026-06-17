@@ -11,7 +11,13 @@ class MYThread implements Runnable {
 public class Main1 {
     public static void main(String[] args) {
 
-        Thread t1 = new Thread(new MyThread());
+        //Both are same things
+        //1st way .
+        Thread t2 = new Thread(new MYThread());
+        //2nd way .
+        MYThread obj = new MYThread();
+        Thread t1 = new Thread(obj);
+
         t1.start();
     }
 }
