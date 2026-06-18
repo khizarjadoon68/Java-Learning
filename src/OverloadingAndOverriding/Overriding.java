@@ -3,7 +3,7 @@ package OverloadingAndOverriding;
 /* In overriding a child class replaces or changes a method it inherit from the parent class by writing the same
 method with own code
 
- 1) Parent and child must have Inheritance .
+ 1) Parent and child must have FourPillarsOfOPP.Inheritance .
  2) Method name must be the same .
  */
 class Animal {

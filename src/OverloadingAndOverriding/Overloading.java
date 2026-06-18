@@ -7,7 +7,7 @@ class A {
         System.out.println("Class A Input value is :"+a);
     }
 }
-// Inheritance
+// FourPillarsOfOPP.Inheritance
 class B extends A {
     //Method
     public void f1(int a, int b) {

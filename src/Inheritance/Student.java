@@ -1,6 +1,6 @@
 package Inheritance;
 
-//Inheritance
+//FourPillarsOfOPP.Inheritance
 class Student extends Person {
     // Properties
     private  int roll_no ;
