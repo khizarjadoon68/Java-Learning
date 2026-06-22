@@ -1,3 +1,5 @@
+package FourPillarsOfOPP;
+
 abstract class Car {
      abstract void type ();
      abstract void color ();
@@ -6,26 +8,26 @@ abstract class Car {
 }
 class Mehran extends Car{
     public void type (){
-        System.out.println("Car Type is Mehran");
+        System.out.println("FourPillarsOfOPP.Car Type is FourPillarsOfOPP.Mehran");
     }
     public void color (){
-        System.out.println("Car Color is White");
+        System.out.println("FourPillarsOfOPP.Car Color is White");
     }
     public void tyre (){
-        System.out.println("4 Tyres Car ");
+        System.out.println("4 Tyres FourPillarsOfOPP.Car ");
     }
 
 }
 
 class Honda extends Car{
     public void type (){
-        System.out.println("Car Type is Honda");
+        System.out.println("FourPillarsOfOPP.Car Type is FourPillarsOfOPP.Honda");
     }
     public void color (){
-        System.out.println("Car Color is White");
+        System.out.println("FourPillarsOfOPP.Car Color is White");
     }
     public void tyre (){
-        System.out.println("4 Tyres Car ");
+        System.out.println("4 Tyres FourPillarsOfOPP.Car ");
     }
 
 }
