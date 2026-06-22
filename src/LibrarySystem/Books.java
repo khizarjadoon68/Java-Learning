@@ -3,42 +3,46 @@ package LibrarySystem;
 class Book {
     String bookName;
     String author;
-    String type;   // Hard or Soft
 
-    Book(String bookName, String author, String type) {
+    Book(String bookName, String author) {
         this.bookName = bookName;
         this.author = author;
-        this.type = type;
     }
-
     public void displayBook() {
         System.out.println("Book Name : " + bookName);
         System.out.println("Author : " + author);
-        System.out.println("Book Type : " + type);
     }
 }
 
 class HardBook extends Book {
 
     HardBook(String bookName, String author) {
-        super(bookName, author, "Hard Book");
+        super(bookName, author);
     }
-
+    @Override
+    public void displayBook(){
+        System.out.println("BookType : HardBook");
+        super.displayBook();
+    }
 }
 class SoftBook extends Book {
 
     SoftBook(String bookName, String author) {
-        super(bookName, author, "Soft Book");
+        super(bookName, author);
     }
-
+    @Override
+    public void displayBook(){
+        System.out.println("BookType : SoftBook");
+        super.displayBook();
+    }
 }
 public class Books {
     public static void main(String[] args){
 
-        HardBook b1 = new HardBook("Code ","Charles Petzold");
-        SoftBook b2 = new SoftBook(" Eloquent JavaScript","Marijn Haverbeke");
+        HardBook h1 = new HardBook("Code ","Charles Petzold");
+        SoftBook s1 = new SoftBook(" Eloquent JavaScript","Marijn Haverbeke");
 
-        b1.displayBook();
-        b2.displayBook();
+        h1.displayBook();
+        s1.displayBook();
     }
 }
