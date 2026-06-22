@@ -18,7 +18,6 @@ class Student1 {
 }
 
 class UnderGrad extends Student1{
-    public String grad = "Under_Graduate Student";
     UnderGrad(String name , String reg_no){
         super(name , reg_no )  ;
 
